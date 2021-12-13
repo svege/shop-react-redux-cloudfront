@@ -58,6 +58,9 @@ export default function Products() {
               <Typography>
                 {formatAsPrice(product.price)}
               </Typography>
+              <Typography gutterBottom variant="h5" component="span">
+                ЧТО Ж ТАК СЛОЖНО-ТО
+              </Typography>
             </CardContent>
             <CardActions>
               <AddProductToCart product={product}/>
